@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #8338ec;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 3vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 18px;
+    border: none;
+    box-shadow: 0 0 1rem rgb(0, 0, 0, 0.5);
+    font-size: 8vmin;
+    color: #fb5607;
+    cursor: pointer;
+    background-color: #00f5d4;
+}
+#rsetbtn{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #14213d;
+    color: #fca311;
+    border-radius: 15px;
+    border: none;
+}
+.msg-container{
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+#new-btn{
+    padding: 10px;
+    font-size: 15px;
+    background-color: #14213d;
+    color: #fca311;
+    border-radius: 15px;
+    border: none;
+}
+#msg{
+    color: #fdb0d8;
+    font-size: 5vmin;
+}
+.hide{
+    display: none;
+}
+.x{
+    color: orange;
+}
+.o{
+    color: blue;
+}
+.scoreboard {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #fca311; /* Match this color with your design */
+}
